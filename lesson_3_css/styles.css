@@ -1,0 +1,159 @@
+html {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+*{
+    box-sizing: border-box;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.background-div{
+    width: 100vw;
+    height: 100vh;
+    background: url(./ragnar-vorel-351414-unsplash.png) no-repeat;
+    background-size: cover;
+    position: relative;
+}
+.indie-header{
+    position: absolute;
+    height: 43px;
+    left: 45.35%;
+    right: 44%;
+    top: calc(50% - 43px/2 - 324.5px);
+
+    font-family: Helvetica;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 37px;
+    line-height: 43px;
+/* identical to box height */
+
+    letter-spacing: -0.0355556px;
+
+    color: #ffffff;
+}
+
+.message-1{
+    position: absolute;
+    left: 35.59%;
+    right: 35.65%;
+    top: 28.03%;
+    bottom: 64.84%;
+
+    background: #FFFFFF;
+    border-radius: 3px;
+}
+.message-2{
+    position: absolute;
+    left: 35.59%;
+    right: 35.65%;
+    top: 39.36%;
+    bottom: 48.44%;
+    
+    background: #FFFFFF;
+    border-radius: 3px;
+}
+.message-3{
+    position: absolute;
+    left: 35.59%;
+    right: 35.65%;
+    top: 54.98%;
+    bottom: 34.38%;
+    
+    background: #FFFFFF;
+    border-radius: 3px;
+}
+.mess{
+    margin: auto 10px;
+
+}
+.mess-1{
+   
+    font-family: Helvetica;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 18px;
+    letter-spacing: -0.391111px;
+    
+    color: #6B86A8;
+}
+.mess-2{
+
+    font-family: Helvetica;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 27px;
+    /* or 169% */
+    
+    letter-spacing: -0.391111px;
+    
+    color: #6B86A8;
+}
+.mess-3{
+
+    font-family: Helvetica;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 27px;
+/* or 169% */
+
+    letter-spacing: -0.391111px;
+
+    color: #6B86A8;
+}
+.email-input{
+    position: absolute;
+    left: 35.59%;
+    right: -111.65%;
+    top: 67.98%;
+    bottom: 26.38%;
+    
+    width: 285px;
+    background: #FFFFFF;
+    border: 1px solid #ECECEC;
+    box-sizing: border-box;
+    border-radius: 3px;
+    font-family: Helvetica;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 18px;
+    letter-spacing: -0.0355556px;
+    padding-left: 10px;
+
+    color: #CFCFCF;
+}
+.get-updates{
+    position: absolute;
+    left: 55.59%;
+    right: 35.65%;
+    top: 67.98%;
+    bottom: 26.38%;
+    width: 133px;
+
+    background: #FF5B1C;
+    border: none;
+    border-radius: 3px;
+    font-family: Helvetica;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 18px;
+    letter-spacing: -0.0355556px;
+
+    color: #FFFFFF;
+}

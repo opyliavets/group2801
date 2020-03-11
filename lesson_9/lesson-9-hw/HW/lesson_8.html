@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Lesson 8</title>
+    <link
+      href="https://fonts.googleapis.com/css?family=Montserrat&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./styles css/normalize.css" />
+    <link rel="stylesheet" href="./styles css/base.css" />
+    <link rel="stylesheet" href="./styles css/header.css" />
+    <link rel="stylesheet" href="./styles css/find_form.css">
+    <link rel="stylesheet" href="./styles css/places-to-stay.css">
+    <link rel="stylesheet" href="./styles css/intro-advent.css">
+    <link rel="stylesheet" href="./styles css/footer.css"/>
+    <link rel="stylesheet" href="">
+  </head>
+  <body>
+    <section class="page-head container">
+      <header class="global-menu" id="menu">
+        <button class="global-menu__toggle" id="btn">
+          <figure class="logo">
+            <svg
+              viewBox="0 0 1000 1000"
+              role="presentation"
+              aria-hidden="true"
+              focusable="false"
+              >
+              <path
+                d="m499.3 736.7c-51-64-81-120.1-91-168.1-10-39-6-70 11-93 18-27 45-40 80-40s62 13 80 40c17 23 21 54 11 93-11 49-41 105-91 168.1zm362.2 43c-7 47-39 86-83 105-85 37-169.1-22-241.1-102 119.1-149.1 141.1-265.1 90-340.2-30-43-73-64-128.1-64-111 0-172.1 94-148.1 203.1 14 59 51 126.1 110 201.1-37 41-72 70-103 88-24 13-47 21-69 23-101 15-180.1-83-144.1-184.1 5-13 15-37 32-74l1-2c55-120.1 122.1-256.1 199.1-407.2l2-5 22-42c17-31 24-45 51-62 13-8 29-12 47-12 36 0 64 21 76 38 6 9 13 21 22 36l21 41 3 6c77 151.1 144.1 287.1 199.1 407.2l1 1 20 46 12 29c9.2 23.1 11.2 46.1 8.2 70.1zm46-90.1c-7-22-19-48-34-79v-1c-71-151.1-137.1-287.1-200.1-409.2l-4-6c-45-92-77-147.1-170.1-147.1-92 0-131.1 64-171.1 147.1l-3 6c-63 122.1-129.1 258.1-200.1 409.2v2l-21 46c-8 19-12 29-13 32-51 140.1 54 263.1 181.1 263.1 1 0 5 0 10-1h14c66-8 134.1-50 203.1-125.1 69 75 137.1 117.1 203.1 125.1h14c5 1 9 1 10 1 127.1.1 232.1-123 181.1-263.1z"
+              ></path>
+            </svg>
+          </figure>
+        </button>
+        <nav class="global-menu__nav nav">
+          <a href="" class="nav__link">Become a host</a>
+          <a href="" class="nav__link">Saved</a>
+          <a href="" class="nav__link">Tips</a>
+          <a href="" class="nav__link">Messages</a>
+          <a href="" class="nav__link nav__link_help">Help</a>
+        </nav>
+      </header>
+      <form action="" class="find-form" id="find-form-id">
+        <header class="find-form__header">
+          Book unique places to stay and things to do.
+        </header>
+        <div class="find-form__main">
+          <div class="find-form__where forms">
+            <h3 class="find-form__where_title titles">Where</h3>
+            <input
+              type="text"
+              class="find-form__input where"
+              placeholder="Anywhere"
+            />
+          </div>
+          <div class="find-form__when forms">
+            <div class="check-in">
+              <h3 class="find-form__where_title titles">Check In</h3>
+              <input
+                type="text"
+                class="find-form__input check check-in-input"
+                placeholder="dd/mm/yyyy"
+              />
+            </div>
+            <div class="checkout">
+              <h3 class="find-form__where_title titles">Check Out</h3>
+              <input
+                type="text"
+                class="find-form__input check check-out-input"
+                placeholder="dd/mm/yyyy"
+              />
+            </div>
+          </div>
+          <div class="find-form__hosts forms">
+            <h3 class="find-form__where_title titles">Guests</h3>
+            <input
+              type="text"
+              class="find-form__input guests"
+              placeholder="Guests"
+            />
+          </div>
+        </div>
+        <button class="find-form__find-button">Search</button>
+      </form>
+    </section>
+    <script>
+      btn.onclick = function() {
+        menu.classList.toggle("global-menu_active")
+        };
+    </script>
+    <div class="open-airBnB">
+      <h3 class="open-airBnB__header">Explore Air BnB</h3>
+      <div class="open-airBnB__options">
+        <div class="options">
+          <div class="options__image-1 options__image"></div>
+          <p class="options__description">Stays</p>
+        </div>
+        <div class="options">
+          <div class="options__image-2 options__image"></div>
+          <p class="options__description">Experiances</p>
+        </div>
+        <div class="options">
+          <div class="options__image-3 options__image"></div>
+          <p class="options__description">Adventures</p>
+        </div>
+      </div>
+    </div>
+    <div class="places-to-stay">
+      <div class="places-to-stay__headers">
+        <h3 class="headers__title">Airbnb Plus places to stay</h3>
+        <p class="headers__descriptions">
+          A selection of places to stay verified for quality and design.
+        </p>
+      </div>
+      <div class="explore-stay">
+        <div class="svg-image-div">
+          <svg
+            viewBox="0 0 470 239"
+            aria-hidden="true"
+            fill="#484848"
+            focusable="false"
+            height="84px"
+            width="165.18828451882845px"
+          >
+            <path
+              d="M104.707 148.464c-.512-1.438-1.109-2.83-1.677-4.118a386.734 386.734 0 0 0-2.678-5.889l-.07-.152a1318.773 1318.773 0 0 0-25.22-51.674l-.374-.728c-.9-1.75-1.832-3.56-2.787-5.337-1.116-2.076-2.352-4.275-4.1-6.322-3.766-4.412-8.966-6.842-14.645-6.842s-10.88 2.431-14.648 6.845c-1.746 2.048-2.981 4.245-4.098 6.321a341.749 341.749 0 0 0-2.812 5.387l-.348.676a1319.873 1319.873 0 0 0-25.22 51.673l-.114.25a388.09 388.09 0 0 0-2.632 5.791c-.569 1.288-1.166 2.678-1.678 4.12-1.497 4.213-1.941 8.24-1.359 12.308 1.219 8.513 6.924 15.809 14.89 19.041a24.699 24.699 0 0 0 9.335 1.81c.995 0 2.007-.06 3.007-.176 3.833-.445 7.695-1.75 11.48-3.88 4.629-2.606 9.202-6.425 14.197-11.883 4.996 5.458 9.569 9.277 14.199 11.883 3.784 2.13 7.646 3.435 11.478 3.88 1 .116 2.013.175 3.008.175a24.69 24.69 0 0 0 9.334-1.809c7.965-3.231 13.671-10.528 14.891-19.041.582-4.067.137-8.093-1.36-12.31zm-51.55 6.352c-6.213-7.89-10.2-15.216-11.599-21.358-.587-2.578-.721-4.947-.398-7.041.278-1.812.9-3.431 1.848-4.815 2.145-3.127 5.938-4.994 10.15-4.994 4.209 0 8.002 1.867 10.147 4.996.949 1.383 1.57 3.003 1.849 4.815.322 2.097.187 4.466-.4 7.044-1.401 6.141-5.387 13.465-11.598 21.353zm45.897 5.35a17.098 17.098 0 0 1-10.46 13.375c-2.745 1.114-5.746 1.506-8.796 1.153-2.919-.34-5.792-1.322-8.783-3.005-4.14-2.33-8.331-5.908-13.048-11.157 7.508-9.275 12.197-17.824 13.933-25.439.794-3.481.962-6.774.5-9.788-.448-2.908-1.474-5.548-3.05-7.846-3.511-5.123-9.565-8.182-16.195-8.182-6.627 0-12.68 3.058-16.192 8.18-1.576 2.298-2.601 4.938-3.048 7.845-.464 3.01-.297 6.302.496 9.784 1.735 7.618 6.424 16.169 13.934 25.447-4.716 5.248-8.907 8.825-13.048 11.156-2.99 1.683-5.863 2.666-8.782 3.005-3.049.353-6.052-.039-8.797-1.153a17.095 17.095 0 0 1-10.46-13.376c-.418-2.923-.095-5.742 1.018-8.872.41-1.154.889-2.286 1.483-3.632.84-1.903 1.732-3.838 2.595-5.709l.116-.251a1318.605 1318.605 0 0 1 25.196-51.625l.35-.682a336.93 336.93 0 0 1 2.765-5.295c.972-1.808 1.95-3.555 3.236-5.063 2.403-2.815 5.563-4.303 9.14-4.303 3.575 0 6.734 1.487 9.137 4.302 1.287 1.508 2.265 3.255 3.236 5.061a333.39 333.39 0 0 1 2.74 5.247l.377.734a1317.39 1317.39 0 0 1 25.196 51.625l.071.155a379.704 379.704 0 0 1 2.64 5.805c.595 1.347 1.075 2.48 1.484 3.63 1.111 3.132 1.434 5.951 1.016 8.873zm194.117-43.622c0-33.068 4.234-63.313 11.695-83.88 5.04-14.316 11.492-25.002 19.961-25.002 7.46 0 11.694 8.67 11.694 22.583 0 17.744-6.049 38.713-15.928 59.482-7.26 15.323-16.736 30.244-27.02 43.754-.2-5.242-.402-10.888-.402-16.937zm-43.352 65.732c12.704-7.057 25.608-17.946 37.504-31.252 3.63 22.985 11.292 30.446 20.365 30.446 10.082 0 19.76-9.276 28.229-26.01v3.225c0 17.34 7.863 22.785 14.92 22.785 10.485 0 20.769-11.695 29.036-30.85-.202 3.428-.202 5.04-.202 7.259 0 17.542 6.452 22.784 13.912 22.784 6.856 0 12.502-4.84 18.55-14.921 1.412-2.419-.402-5.646-3.225-5.646-1.412 0-2.823.807-3.428 2.017-3.63 6.452-7.057 10.888-11.291 10.888-5.848 0-6.452-8.47-6.452-15.122 0-9.679 1.225-25.472 3.024-34.883.48-2.515-1.412-4.637-3.831-4.637-2.017 0-3.63 1.41-4.033 3.024-7.662 27.826-19.558 52.425-30.85 52.425-5.645 0-8.065-6.654-8.065-15.324 0-9.88 2.017-21.777 5.645-35.085.606-2.42-1.209-4.839-3.83-4.839-1.613 0-3.428 1.009-3.832 2.621-9.072 30.245-21.776 52.627-33.269 52.627-8.267 0-12.5-11.292-14.315-29.237 13.105-15.526 24.8-33.471 33.47-51.619 10.284-21.977 16.736-44.157 16.736-62.707C344.587 6.654 334.505 0 325.23 0c-10.888 0-20.97 10.283-28.027 29.842-7.46 21.373-12.098 52.424-12.098 86.702 0 9.275.404 17.34 1.008 24.397-12.5 14.316-26.212 26.616-39.923 34.48-1.814 1.008-2.62 3.428-1.613 5.242 1.008 1.815 3.427 2.621 5.242 1.613zm-68.353 56.054c2.218 0 4.235-1.815 4.235-4.033 0-17.743.806-35.487 2.62-52.827 36.698-3.226 78.839-38.31 78.839-74.806 0-25.204-18.147-39.52-42.141-39.52-23.39 0-53.03 14.719-77.63 39.117-1.612 1.41-1.612 4.032 0 5.645 1.413 1.613 4.034 1.613 5.647 0 22.986-22.38 50.207-36.697 71.781-36.697 19.357 0 33.874 11.493 33.874 31.455 0 32.26-36.899 63.11-69.563 66.539 3.024-25.608 7.864-50.408 14.518-72.185.604-2.016-.807-4.436-2.823-5.042-2.218-.603-4.637.606-5.243 2.622-6.654 22.583-11.694 48.19-14.921 75.008-7.863-.403-14.719-2.42-22.38-6.855-2.017-1.009-4.436-.202-5.647 1.613-1.008 2.016-.2 4.436 1.614 5.645 9.073 4.637 16.937 7.057 25.607 7.662-1.613 17.34-2.622 35.084-2.622 52.626 0 2.218 2.017 4.033 4.235 4.033zm274.22-110.697c1.614 1.21 4.235 1.008 5.444-.604 5.444-6.855 8.671-14.115 8.671-20.365 0-9.275-6.251-15.122-17.743-15.122-22.18 0-43.554 22.582-43.554 39.923 0 11.09 7.662 18.55 22.987 21.373l9.476 1.613c9.88 1.613 16.534 5.04 16.534 11.896 0 7.461-8.267 11.493-16.937 11.493-6.452 0-12.099-2.218-16.534-5.242-1.613-1.21-4.032-.807-5.242.806s-.807 4.033.806 5.242c5.646 4.235 12.905 6.856 20.97 6.856 14.315 0 25.003-8.065 25.003-19.558 0-9.275-7.058-16.333-23.39-19.155l-9.477-1.614c-9.678-1.613-16.13-5.846-16.13-13.912 0-13.913 17.744-32.06 35.285-32.06 6.05 0 9.88 2.622 9.88 8.066 0 4.234-2.42 9.679-6.653 14.92-1.21 1.614-1.009 4.033.604 5.444z"
+            ></path>
+          </svg>
+        </div>
+        <button class="explore-stay__input">
+          <p class="button_text">Find stays</p>
+          <p class="button_item">></p>
+        </button>
+      </div>
+    </div>
+    <div class="intro-adventures">
+      <div class="intro-adventures__title">
+        <h3 class="intro-adventures__title-header headers__title">
+          Introducing Airbnb Adventures
+        </h3>
+        <p class="intro-adventures__title-description headers__descriptions">
+          Multi-day trips led by local experts – activities, meals, and stays
+          included.
+        </p>
+      </div>
+      <div class="intro-adventures__main">
+        <div class="intro-adventures__main-blocks ">
+          <div class="main-blocks__image morocco_image"></div>
+          <h4 class="main-blocks__title">Morocco</h4>
+          <p class="main-blocks__descrip morocco_descrip">
+            Atlas Mountains Experiance </br> 
+            From $76/person
+          </p>
+          <span class="main-blocks__rate morocco__rate">5.0</span>
+        </div>
+        <div class="intro-adventures__main-blocks">
+          <div class="main-blocks__image norway_image"></div>
+          <h4 class="main-blocks__title">Norway</h4>
+          <p class="main-blocks__descrip norway_descrip">
+            2 Nights PACKAGE All Inclusive </br>
+            From $485/person
+          </p>
+          <span class="main-blocks__rate norway__rate">5.0</span>
+        </div>
+        <div class="intro-adventures__main-blocks">
+          <div class="main-blocks__image tanzania_image"></div>
+          <h4 class="main-blocks__title">Tanzania</h4>
+          <p class="main-blocks__descrip tanzania_descip">
+            The Family Friendly Safari </br>
+            From $2,130/person
+          </p>
+        </div>
+        <div class="intro-adventures__main-blocks italy_block">
+          <div class="main-blocks__image italy_image"></div>
+          <h4 class="main-blocks__title">Italy</h4>
+          <p class="main-blocks__descrip italy_descrip">
+            Walking in Leonardo's Tuscany </br>
+            From $244/person
+          </p>
+        </div>
+        <div class="intro-adventures__main-blocks nepal_block">
+          <div class="main-blocks__image nepal_image"></div>
+          <h4 class="main-blocks__title">Nepal</h4>
+          <p class="main-blocks__descrip nepal_descrip">
+            Out of the world experiance in Nepal </br>
+            From $708/person
+          </p>
+        </div>
+      </div>
+      <div class="intro-adventures__low-link">
+        <a href="" class="intro-adventure__link">
+            Show all adventures
+        </a>
+      </div>
+    </div>
+      <!-- Block styled with scss start -->
+    <div class="">
+      <div class="">
+        <h3 class="headers__title">
+        Places to stay around the world
+        </h3>
+       <p class="headers__descriptions"></p>
+      </div>
+    </div>
+  <!-- Block styled with scss start -->
+    <footer class="footer">
+      <div class="footer_wrapper">
+       <div class="chapters">
+         <div class="chapters-block">
+           <h4 class="chapters-block__header">Airbnb</h4>
+           <a href="" class="chapters-block__link">Careers</a>
+           <a href="" class="chapters-block__link">News</a>
+           <a href="" class="chapters-block__link">Policies</a>
+           <a href="" class="chapters-block__link">Diversity & Belonging</a>
+           <a href="" class="chapters-block__link">Accessibility</a>
+           <a href="" class="chapters-block__link">Company Details</a>
+           <a href="" class="chapters-block__link">UK Modern Slavery Act</a>
+         </div>
+         <div class="chapters-block">
+          <h4 class="chapters-block__header">Discover</h4>
+          <a href="" class="chapters-block__link">Trust & Safety</a>
+          <a href="" class="chapters-block__link">Travel Credit</a>
+          <a href="" class="chapters-block__link">Airbnb Citizen</a>
+          <a href="" class="chapters-block__link">Business Travel</a>
+          <a href="" class="chapters-block__link">Things To Do</a>
+          <a href="" class="chapters-block__link">Airbnbmag</a>
+         </div>
+         <div class="chapters-block">
+          <h4 class="chapters-block__header">Hosting</h4>
+          <a href="" class="chapters-block__link">Why Host</a>
+          <a href="" class="chapters-block__link">Hospitality</a>
+          <a href="" class="chapters-block__link">Responsible Hosting</a>
+          <a href="" class="chapters-block__link">Community Centre</a>
+          <a href="" class="chapters-block__link">Host an Experience</a>
+          <a href="" class="chapters-block__link">Open Homes</a>
+         </div>
+         <div class="chapters-block">
+          <h4 class="chapters-block__header">Support</h4>
+          <a href="" class="chapters-block__link">Help</a>
+          <a href="" class="chapters-block__link">Neighbourhood Support</a>
+         </div>
+       </div>
+       <div class="copyrights">
+        <div class="links__left">
+          <svg viewBox="0 0 1000 1000" role="presentation" aria-hidden="true" focusable="false" style="height: 1.5em; width: 1.5em; display: block; fill: rgb(118, 118, 118);"><path d="m499.3 736.7c-51-64-81-120.1-91-168.1-10-39-6-70 11-93 18-27 45-40 80-40s62 13 80 40c17 23 21 54 11 93-11 49-41 105-91 168.1zm362.2 43c-7 47-39 86-83 105-85 37-169.1-22-241.1-102 119.1-149.1 141.1-265.1 90-340.2-30-43-73-64-128.1-64-111 0-172.1 94-148.1 203.1 14 59 51 126.1 110 201.1-37 41-72 70-103 88-24 13-47 21-69 23-101 15-180.1-83-144.1-184.1 5-13 15-37 32-74l1-2c55-120.1 122.1-256.1 199.1-407.2l2-5 22-42c17-31 24-45 51-62 13-8 29-12 47-12 36 0 64 21 76 38 6 9 13 21 22 36l21 41 3 6c77 151.1 144.1 287.1 199.1 407.2l1 1 20 46 12 29c9.2 23.1 11.2 46.1 8.2 70.1zm46-90.1c-7-22-19-48-34-79v-1c-71-151.1-137.1-287.1-200.1-409.2l-4-6c-45-92-77-147.1-170.1-147.1-92 0-131.1 64-171.1 147.1l-3 6c-63 122.1-129.1 258.1-200.1 409.2v2l-21 46c-8 19-12 29-13 32-51 140.1 54 263.1 181.1 263.1 1 0 5 0 10-1h14c66-8 134.1-50 203.1-125.1 69 75 137.1 117.1 203.1 125.1h14c5 1 9 1 10 1 127.1.1 232.1-123 181.1-263.1z"></path></svg>
+          <p class="links__left_allRigthsReserved">© 2020 Airbnb, Inc. All rights reserved.</p>
+          <nav class="copyrights-links">
+            <a href="" class="copyrights-links__link">Terms</a>
+            <a href="" class="copyrights-links__link">Privacy</a>
+            <a href="" class="copyrights-links__link">Site map</a>
+          </nav>
+        </div>
+        <div class="links__right">
+          <svg width="25" height="18" viewBox="0 0 10 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path fill-rule="evenodd" clip-rule="evenodd" d="M0.5 8.10563V5.76C0.5 5.52375 0.696875 5.30438 0.933125 5.30438H2.35063V4.13438C2.35063 1.41187 3.74562 0.0225 6.52437 0C7.4525 0 8.33562 0.118125 9.1625 0.36C9.42125 0.43875 9.51688 0.59625 9.5 0.855L9.185 3.13875C9.1625 3.24 9.10625 3.33563 9.005 3.43688C8.88688 3.49875 8.76875 3.53813 8.65063 3.51562C8.15562 3.375 7.64938 3.31875 7.07563 3.31875C6.28813 3.31875 6.17 3.47625 6.17 4.29187V5.30438H8.7125C8.94875 5.30438 9.16813 5.54063 9.16813 5.79938L8.97125 8.145C8.97125 8.38125 8.77438 8.54437 8.53813 8.54437H6.17V17.5444C6.17 17.7806 5.97312 18 5.73687 18H2.80625C2.57 18 2.35625 17.7806 2.35625 17.5444V8.54437H0.93875C0.822386 8.54437 0.710788 8.49815 0.628507 8.41587C0.546225 8.33359 0.5 8.22199 0.5 8.10563Z" fill="#767676"/>
+            </svg>            
+          <svg width="25" height="15" viewBox="0 0 18 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path fill-rule="evenodd" clip-rule="evenodd" d="M17.16 11.1901L14.76 11.2276C14.76 11.2276 14.2425 11.3326 13.5675 10.8526C12.6675 10.2226 11.82 8.58005 11.16 8.79755C10.4925 9.01505 10.515 10.4926 10.515 10.4926C10.515 10.4926 10.5225 10.8076 10.365 10.9726C10.2 11.1601 9.87752 11.1901 9.87752 11.1901H8.80502C8.80502 11.1901 6.43502 11.3401 4.35002 9.11255C2.06252 6.69005 0.0525215 1.88255 0.0525215 1.88255C0.0525215 1.88255 -0.0674786 1.56755 0.0600214 1.41005C0.202521 1.24505 0.585021 1.23005 0.585021 1.23005L3.15752 1.21505C3.15752 1.21505 3.39752 1.26005 3.57002 1.38755C3.71252 1.49255 3.79502 1.69505 3.79502 1.69505C3.79502 1.69505 4.20752 2.76755 4.76252 3.74255C5.83502 5.64005 6.33752 6.05255 6.69752 5.85005C7.23002 5.55005 7.07252 3.17255 7.07252 3.17255C7.07252 3.17255 7.08002 2.31005 6.80252 1.92005C6.58502 1.62005 6.18002 1.53005 6.00752 1.50755C5.86502 1.48505 6.09752 1.14005 6.40502 0.99005C6.87002 0.75755 7.68752 0.74255 8.64752 0.75755C9.39752 0.76505 9.61502 0.81005 9.90752 0.88505C10.7925 1.10255 10.4925 1.95005 10.4925 3.97505C10.4925 4.62755 10.38 5.53505 10.8375 5.84255C11.0325 5.97005 11.52 5.86505 12.72 3.77255C13.29 2.78255 13.7175 1.62005 13.7175 1.62005C13.7175 1.62005 13.815 1.41005 13.9575 1.32005C14.1075 1.23005 14.3025 1.25255 14.3025 1.25255L17.01 1.23755C17.01 1.23755 17.82 1.14005 17.955 1.51505C18.0975 1.90505 17.655 2.82755 16.545 4.33505C14.73 6.81005 14.5275 6.57755 16.035 8.00255C17.475 9.36755 17.7675 10.0351 17.82 10.1176C18.42 11.1301 17.16 11.2051 17.16 11.2051V11.1901Z" fill="#767676"/>
+            </svg>            
+          <svg width="25" height="18" viewBox="0 0 18 15" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path fill-rule="evenodd" clip-rule="evenodd" d="M17.4375 2.5775C16.785 2.85313 16.1325 3.03875 15.4406 3.11188C16.1663 2.68437 16.6894 2.06 16.9706 1.21063C16.2881 1.6104 15.5454 1.89723 14.7712 2.06C14.0794 1.34 13.2244 0.96875 12.2344 0.96875C10.3162 0.96875 8.76375 2.50437 8.76375 4.41125C8.76375 4.68687 8.80313 4.94563 8.85938 5.1875C6.08063 5.05813 3.51 3.725 1.73812 1.59875C1.42312 2.13312 1.25437 2.70687 1.25437 3.33687C1.25437 4.50125 1.83375 5.53625 2.80125 6.18313C2.23875 6.16625 1.72125 6.01438 1.215 5.75563V5.795C1.215 7.42063 2.4075 8.84375 3.99375 9.15875C3.63937 9.25437 3.34125 9.28813 3.0825 9.28813C2.91375 9.28813 2.68875 9.27125 2.44687 9.215C2.66425 9.90256 3.09373 10.5036 3.67375 10.9321C4.25377 11.3605 4.95455 11.5943 5.67562 11.6C4.42688 12.5787 2.98688 13.0794 1.36688 13.0794C1.05188 13.0794 0.770625 13.0625 0.5625 13.0231C2.16562 14.0581 3.9375 14.5756 5.85563 14.5756C9.95625 14.5756 13.0725 12.32 14.58 9.34437C15.345 7.84812 15.7163 6.32938 15.7163 4.79375V4.535C15.6994 4.43938 15.6994 4.36625 15.6994 4.34938C16.3785 3.86337 16.9668 3.26171 17.4375 2.57187" fill="#767676"/>
+            </svg>          
+          <svg width="25" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path fill-rule="evenodd" clip-rule="evenodd" d="M17.3175 0.6825C16.86 0.225 16.32 0 15.69 0H2.31C1.6725 0 1.1325 0.225 0.6825 0.6825C0.2325 1.14 0 1.68 0 2.31V15.69C0 16.3275 0.225 16.8675 0.6825 17.3175C1.14 17.7675 1.68 18 2.31 18H15.69C16.3275 18 16.8675 17.775 17.3175 17.3175C17.7675 16.86 18 16.32 18 15.69V2.31C18 1.6725 17.775 1.1325 17.3175 0.6825ZM6.4575 6.4875C7.1625 5.805 8.0175 5.46 9.0075 5.46C10.005 5.46 10.86 5.805 11.565 6.4875C12.27 7.17 12.6225 7.995 12.6225 8.9625C12.6225 9.93 12.27 10.755 11.565 11.4375C10.86 12.12 10.005 12.465 9.0075 12.465C8.0175 12.465 7.1625 12.12 6.4575 11.4375C5.7525 10.755 5.4 9.93 5.4 8.9625C5.4 7.995 5.7525 7.17 6.4575 6.4875ZM15.9525 15.21C15.9525 15.4125 15.885 15.585 15.7425 15.72C15.6774 15.7873 15.5992 15.8406 15.5128 15.8767C15.4265 15.9128 15.3336 15.9309 15.24 15.93H2.715C2.62018 15.9315 2.52605 15.9137 2.43836 15.8776C2.35067 15.8414 2.27127 15.7878 2.205 15.72C2.13816 15.6534 2.0857 15.5737 2.05087 15.486C2.01604 15.3983 1.99958 15.3043 2.0025 15.21V7.6125H3.6525C3.49617 8.10994 3.41774 8.62858 3.42 9.15C3.42 10.65 3.9675 11.9325 5.0625 12.99C6.1575 14.0475 7.47 14.58 9.015 14.58C10 14.5879 10.9699 14.3371 11.8275 13.8525C12.6692 13.386 13.3729 12.7056 13.8675 11.88C14.364 11.0591 14.6235 10.1168 14.6175 9.1575C14.6175 8.625 14.535 8.115 14.385 7.62H15.9675V15.21H15.9525ZM15.9525 4.7475C15.9525 4.9725 15.87 5.1675 15.72 5.325C15.6446 5.40097 15.5545 5.46076 15.4552 5.50074C15.3559 5.54071 15.2495 5.56003 15.1425 5.5575H13.1025C12.8775 5.5575 12.6825 5.475 12.525 5.325C12.449 5.24959 12.3892 5.15949 12.3493 5.0602C12.3093 4.96091 12.29 4.85451 12.2925 4.7475V2.8125C12.2925 2.595 12.375 2.4075 12.525 2.2425C12.675 2.0775 12.8775 2.0025 13.1025 2.0025H15.1425C15.3675 2.0025 15.5625 2.085 15.72 2.2425C15.8775 2.4 15.9525 2.595 15.9525 2.8125V4.7475Z" fill="#767676"/>
+            </svg>        
+        </div>
+       </div>
+     </div>
+    </footer>
+  </body>
+</html>

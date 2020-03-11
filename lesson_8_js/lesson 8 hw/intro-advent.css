@@ -1,0 +1,151 @@
+/* Introducing adventures section */
+
+.intro-adventures {
+  display: flex;
+  flex-flow: column nowrap;
+  margin: 50px auto;
+  max-width: 1250px;
+}
+
+.intro-adventures__main {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+}
+
+.main-blocks__image {
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: calc(150px * 1.5);
+  height: calc(200px * 1.5);
+  border-radius: 8px;
+  margin-bottom: 15px;
+}
+
+.morocco_image {
+  background-image: url(https://a0.muscache.com/im/pictures/56ba0225-92af-483f-a5c4-6d449d60f09b.jpg?aki_policy=poster);
+}
+
+.norway_image {
+  background-image: url(https://a0.muscache.com/im/pictures/lombard/MtTemplate-884613-media_library/original/b33f6239-b565-4fdf-acc7-fac480b4112b.jpeg?aki_policy=poster);
+}
+
+.tanzania_image {
+  background-image: url(https://a0.muscache.com/im/pictures/86ce62db-f786-48d4-b4ae-4ecb50d16491.jpg?aki_policy=poster);
+}
+
+.italy_image {
+  background-image: url(https://a0.muscache.com/im/pictures/36199ab3-e129-4dbb-b7a8-8b28384a8340.jpg?aki_policy=poster);
+}
+
+.nepal_image {
+  background-image: url(https://a0.muscache.com/im/pictures/6287d572-d080-43a4-b3c2-cf19c7483e59.jpg?aki_policy=poster);
+}
+
+.main-blocks__title {
+  text-transform: uppercase;
+  font-weight: 600;
+  font-size: 12.5px;
+}
+
+.main-blocks__descrip {
+  line-height: 180%;
+  margin-top: 15px;
+  width: calc(150px * 1.5);
+}
+
+.morocco_descrip:after {
+  content: "\B7  2 days";
+}
+
+.norway_descrip:after {
+  content: "\B7  3 days";
+}
+
+.tanzania_descip:after {
+  content: "\B7  6 days";
+}
+
+.italy_descrip:after {
+  content: "\B7  2 days";
+}
+
+.nepal_descrip:after {
+  content: "\B7  7 days";
+}
+
+.main-blocks__rate:before {
+  content: "\2605  ";
+}
+
+.morocco__rate:after {
+  content: "  (1)";
+  color: grey;
+}
+
+.norway__rate:after {
+  content: "  (11)";
+  color: grey;
+}
+
+.intro-adventures__low-link {
+  margin-top: 25px;
+}
+
+.intro-adventure__link {
+  font-weight: 800;
+  text-decoration: underline;
+  color: black;
+}
+
+.intro-adventure__link:after {
+  content: ">";
+  color: black;
+  font-size: 15px;
+  text-decoration: none;
+}
+
+@media (max-width: 1100px) {
+  .intro-adventures {
+    max-width: 1100px;
+    margin: 20px 20px;
+  }
+
+  .nepal_block {
+    display: none;
+  }
+}
+
+@media (max-width: 420px) {
+  .intro-adventures {
+    max-width: 420px;
+    margin: 20px 20px;
+  }
+
+  .intro-adventures__main {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+  }
+
+  .intro-adventures__main-blocks {
+    max-width: 165px;
+    margin: 5px 5px;
+  }
+  .main-blocks__image {
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: calc(150px * 1.1);
+    height: calc(200px * 1.1);
+    border-radius: 8px;
+    margin-bottom: 10px;
+  }
+
+  .nepal_block {
+    display: none;
+  }
+
+  .main-blocks__descrip {
+    font-size: 10px;
+  }
+}

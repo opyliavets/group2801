@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+      *{
+      box-sizing: border-box;
+        }
+      html{
+          font-family: Arial, Helvetica, sans-serif;
+          font-size: 14px;
+      }
+      body{
+          background-color: #253e52;
+      }
+      h1,
+      h2,
+      h3,
+      h4,
+      h5,
+      h6,
+      p,
+      body{
+          margin:0;
+      }
+      .container{
+          width: 470px;
+          min-height: 80px;
+          margin: 40px auto;
+          background-color: #fff;
+          padding: 48px;
+          text-align: center;
+          color: #325e82;
+          border-radius: 2px;
+          box-shadow: 0 0 10px 0 rgba(63, 78, 90, 0.11);
+      }
+      .header{
+          font-size: 16px;
+      }
+      .img{
+          width: 44px;
+          height: 42px;
+          object-fit: contain;
+          padding: 5px;
+      }
+      .browsers{
+          width: 100%;
+      }
+      .description, .browsers{
+          margin-top: 20px;
+      }
+      .btn-confirm{
+          width: 104px;
+          height: 32px;
+          border-radius: 2px;
+          border: solid 1px #25a0d4;
+          background-color: #25a0d4;
+          color: #fff;
+          font-weight: normal;
+          margin-top: 45px;
+      }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h2 class="header">You seem to be using an unsupported browser</h2>
+        <p class="description"> To get the most out of using the new Return Path<br/>
+            please login to the new experience with supported<br/>
+            browser
+        </p>
+<table class="browsers">
+    <tr>
+        <td>
+            <img src="./IE10logo.png" alt="Internet Explorer" class="img">
+        </td>
+        <td>
+            <img src="./Chromelogo.png" alt="Google Chrome" class="img">
+        </td>
+        <td>
+            <img src="./Firefoxlogo.png" alt="Mozzila Firefox" class="img">
+        </td>
+        <td>
+            <img src="./safarilogo.png" alt="Safari" class="img">
+        </td>
+        <td>
+            <img src="./operalogo.png" alt="Opera" class="img">
+        </td>
+    </tr>
+    <tr>
+        <td>IE</td>
+        <td>Chrome</td>
+        <td>Mozilla</td>
+        <td>Safari</td>
+        <td>Opera</td>
+    </tr>
+</table>
+     <button class="btn-confirm">
+         GOT IT!
+     </button>
+    </div>
+</body>
+</html>

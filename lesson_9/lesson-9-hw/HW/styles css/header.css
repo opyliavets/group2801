@@ -1,0 +1,285 @@
+:root {
+  --header-text-color: #fff;
+  --logo-text-color-mobile: rgb(255, 90, 95);
+  --header-text-color-mobile: grey;
+  --exploreAirBnB-img-block-width: 32%;
+  --exploreAirBnB-img-block-width-mobile: 100%;
+  --headers-bottom-margin: 15px;
+  --header-font-size: 20px;
+}
+
+.container {
+  padding: 1rem;
+}
+
+.page-head {
+  min-height: 100vh;
+  width: 100%;
+  position: relative;
+  background-image: url(./assets/images/Rectangle@2x.png);
+  background-size: cover;
+  background-position: center right;
+  background-repeat: no-repeat;
+  overflow: hidden;
+  padding-top: 40px;
+}
+
+.logo svg {
+  width: 34px;
+  height: 34px;
+}
+
+.logo path {
+  fill: var(--header-text-color);
+}
+
+.global-menu {
+  display: flex;
+  justify-content: space-between;
+}
+.global-menu__toggle {
+  pointer-events: none;
+  background: transparent;
+  border: none;
+  position: relative;
+}
+
+.nav {
+  --block-height: 40px;
+  display: flex;
+  height: var(--block-height);
+}
+
+.nav__link {
+  padding-bottom: 20px;
+  padding-left: 10px;
+  padding-right: 10px;
+  margin: 0 10px;
+  font-size: 1rem;
+  color: var(--header-text-color);
+}
+
+.nav__link:last-child {
+  margin-right: 0;
+}
+
+.nav__link:hover {
+  border-bottom: 1px solid var(--header-text-color);
+}
+
+/* Second block explore AirBnB */
+
+.open-airBnB {
+  display: flex;
+  flex-flow: column nowrap;
+  margin: 50px auto;
+  max-width: 1250px;
+}
+
+.open-airBnB__options {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+}
+
+.open-airBnB__header {
+  font-size: var(--header-font-size);
+  margin-bottom: var(--headers-bottom-margin);
+}
+
+.options {
+  display: flex;
+  flex-flow: row nowrap;
+  width: var(--exploreAirBnB-img-block-width);
+  border: 1px solid rgba(0, 0, 0, 0.02);
+  box-sizing: border-box;
+  box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.15);
+  border-radius: 12px;
+  font-size: 0;
+}
+
+.options__image {
+  background-size: cover;
+  background-repeat: no-repeat;
+  min-height: 85px;
+  width: var(--exploreAirBnB-img-block-width);
+  border-top-left-radius: 12px;
+  border-bottom-left-radius: 12px;
+}
+
+.options__image-1 {
+  background-image: url(https://a0.muscache.com/im/pictures/8b7519ec-2c82-4c09-8233-fd4d2715bbf9.jpg?aki_policy=x_large);
+}
+
+.options__image-2 {
+  background-image: url(https://a0.muscache.com/im/pictures/a77ee672-e790-4362-8cc5-52bec1371ece.jpg?aki_policy=x_large);
+}
+
+.options__image-3 {
+  background-image: url(https://a0.muscache.com/im/pictures/38f2bfd6-1f4d-46d7-babf-61657deef302.jpg?aki_policy=x_large);
+}
+
+.options__description {
+  align-self: center;
+  margin-left: 35px;
+  font-weight: 800;
+  color: #484848;
+  font-size: 15px;
+}
+
+@media (max-width: 1100px) {
+  :root {
+    --spacing: 24px;
+  }
+
+  .global-menu {
+    color: var(--header-text-color-mobile);
+  }
+  .global-menu {
+    position: relative;
+    z-index: 10;
+    top: 0;
+    left: 0;
+  }
+
+  .global-menu__toggle {
+    z-index: 1;
+    pointer-events: inherit;
+    position: relative;
+    outline: none;
+    cursor: pointer;
+  }
+
+  .global-menu__toggle::after {
+    content: ">";
+    position: absolute;
+    top: 50%;
+    right: 0;
+    transform: translate(100%, -75%) rotate(90deg) scaleX(0.5);
+    color: var(--header-text-color);
+    font-size: 25px;
+  }
+
+  .nav {
+    display: flex;
+    visibility: hidden;
+    height: auto;
+    flex-direction: column;
+    background: #fff;
+    width: 100vw;
+    height: 100vh;
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 88px var(--spacing) var(--spacing);
+  }
+
+  .nav__link {
+    font-size: 16px;
+    margin: 0;
+    padding: 12px 0;
+    position: relative;
+    color: var(--header-text-color-mobile);
+  }
+
+  .nav__link:nth-child(2n) {
+    padding-bottom: var(--spacing);
+  }
+
+  .nav__link:nth-child(2n)::after {
+    content: "";
+    width: 100%;
+    height: 1px;
+    background-color: #8080803d;
+    position: absolute;
+    bottom: 8px;
+    left: 0;
+  }
+
+  .global-menu.global-menu_active .global-menu__nav {
+    visibility: visible;
+  }
+
+  .global-menu.global-menu_active .logo path {
+    fill: var(--logo-text-color-mobile);
+  }
+
+  .global-menu.global-menu_active .global-menu__toggle::after {
+    transform: translate(100%, -75%) rotate(-90deg) scaleX(0.5);
+    color: var(--logo-text-color-mobile);
+  }
+
+  .global-menu.global-menu_active #find-form-id {
+    z-index: -1;
+  }
+
+  .nav__link_help {
+    position: absolute;
+    bottom: 0;
+    font-size: 18px;
+    left: var(--spacing);
+    width: 100%;
+  }
+
+  /* Second block explore AirBnB */
+  .open-airBnB {
+    display: flex;
+    flex-flow: column nowrap;
+    margin: 20px 20px;
+    max-width: 1100px;
+  }
+
+  .open-airBnB__options {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+  }
+
+  .open-airBnB__header {
+    font-size: 20px;
+    margin-bottom: 25px;
+  }
+
+  .options {
+    display: flex;
+    flex-flow: column wrap;
+    width: var(--exploreAirBnB-img-block-width);
+    min-height: 200px;
+    border: 1px solid rgba(0, 0, 0, 0.02);
+    box-sizing: border-box;
+    box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.15);
+    border-radius: 12px;
+  }
+
+  .options__image {
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 85px;
+    width: var(--exploreAirBnB-img-block-width-mobile);
+    height: 75%;
+    border-top-left-radius: 12px;
+    border-bottom-left-radius: 0;
+    border-top-right-radius: 12px;
+  }
+
+  .options__image-1 {
+    background-image: url(https://a0.muscache.com/im/pictures/8b7519ec-2c82-4c09-8233-fd4d2715bbf9.jpg?aki_policy=x_large);
+  }
+
+  .options__image-2 {
+    background-image: url(https://a0.muscache.com/im/pictures/a77ee672-e790-4362-8cc5-52bec1371ece.jpg?aki_policy=x_large);
+  }
+
+  .options__image-3 {
+    background-image: url(https://a0.muscache.com/im/pictures/38f2bfd6-1f4d-46d7-babf-61657deef302.jpg?aki_policy=x_large);
+  }
+
+  .options__description {
+    margin-top: 10px;
+    margin-left: 15px;
+    font-weight: 800;
+    color: #484848;
+    font-size: 15px;
+    align-self: start;
+  }
+}

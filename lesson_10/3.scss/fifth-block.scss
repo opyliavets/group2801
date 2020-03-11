@@ -1,0 +1,157 @@
+.fifth-block {
+    max-width: 1250px;
+  }
+
+.fifth-block__main{
+    display: flex;
+    flex-flow: row wrap;
+  }
+
+  $cell-count: 12;
+  $cell-count-tab:12;
+  $cell-size: 100% / $cell-count;
+  $cell-size-tab: 100% / $cell-count-tab;
+  $cell-heigt-f-b: 350px;
+
+//   desctop style
+@media (max-width: 1378px){
+    @for $index from 1 to $cell-count {
+        .airBnB-plus-block-#{$index} {
+            width: $cell-size * $index;
+            height: $cell-heigt-f-b;
+        }
+    }
+    .fifth-block {
+        display: flex;
+        flex-flow: column nowrap;
+        margin: 50px 50px;
+    }
+}
+//   tablet style
+@media (max-width: 1100px){
+    @for $index from 1 to $cell-count-tab {
+        .airBnB-plus-block-td-#{$index} {
+            width: $cell-size-tab * $index;
+            height: $cell-heigt-f-b;
+        }
+    }
+    .fifth-block {
+        display: flex;
+        flex-flow: column nowrap;
+        margin: 50px 25px;
+    }
+}
+@media (max-width: 992px - 1px){
+    @for $index from 1 to $cell-count-tab {
+        .airBnB-plus-block-md-#{$index} {
+            width: $cell-size-tab * $index;
+            height: $cell-heigt-f-b;
+        }
+    }
+    .fifth-block {
+        display: flex;
+        flex-flow: column nowrap;
+        margin: 50px 20px;
+    }
+}
+//    note style
+@media (max-width: 768px - 1px){
+    @for $index from 1 to $cell-count {
+        .airBnB-plus-block-sd-#{$index} {
+            width: $cell-size * $index;
+            height: $cell-heigt-f-b;
+        }
+    }
+}
+//      mobile style
+@media (max-width: 576px - 1px){
+    @for $index from 1 to $cell-count {
+        .airBnB-plus-block-xs-#{$index} {
+            width: $cell-size * $index;
+            height: $cell-heigt-f-b;
+        }
+    }
+}
+
+.airBnB-plus-block-4:nth-child(1){
+    padding: 10px 5px 10px 0px;
+}
+
+.airBnB-plus-block-4:nth-child(2){
+    padding: 10px 5px 10px 5px;
+}
+.airBnB-plus-block-4:nth-child(3){
+    padding: 10px 0px 10px 5px;
+}
+
+.airBnBplus-content{
+    height: 330px;
+    &__image{
+        border-radius: 12px;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+    }
+
+    &__image-1{
+        height: 70%;
+        background-image: url(https://a0.muscache.com/4ea/air/v2/pictures/f33f1192-b3af-47bf-9002-aa00b6286f3d.jpg?t=r:w654-h400-sfit,e:fjpg-c90);
+        background-size: cover;    
+    }
+
+    &__image-1_svg{
+        display: flex;
+        flex-flow: column nowrap;
+        align-items: center;
+
+    }
+
+    &__image-2{
+        height: 70%;
+        background-image: url(https://a0.muscache.com/4ea/air/v2/pictures/316c7597-08da-4d77-9243-13292e282050.jpg?t=r:w654-h400-sfit,e:fjpg-c90);
+        background-size: cover;
+    }
+
+    &__image-2_svg{
+        display: flex;
+        flex-flow: column nowrap;
+        align-items: center;
+
+    }
+
+    &__image-3{
+        height: 70%;
+        background-image: url(https://a0.muscache.com/4ea/air/v2/pictures/d82b445b-b7ce-4277-9131-3aab48633e9d.jpg?t=r:w654-h400-sfit,e:fjpg-c90);
+        background-size: cover;
+    }
+
+    &__image-3_svg{
+        display: flex;
+        flex-flow: column nowrap;
+        align-items: center;
+
+    }
+}
+
+.city{
+    text-align: center;
+    font-size: 30px;
+    font-weight: 900;
+}
+
+.airBnBplus-content__header{
+    padding: 5px 0;
+}
+
+.verified-stays{
+    color: rgb(100, 40, 102);
+    margin-bottom: 5px;
+    font-weight: 700;
+    font-size: 14px;
+
+    &-description{
+        color: rgb(90, 90, 90);
+    }
+}
+
+

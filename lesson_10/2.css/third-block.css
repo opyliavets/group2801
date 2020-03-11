@@ -1,0 +1,381 @@
+@charset "UTF-8";
+.third-block {
+  max-width: 1250px;
+}
+
+.third-block__main {
+  display: flex;
+  flex-flow: row wrap;
+}
+
+@media (max-width: 1378px) {
+  .mozaic-block-1 {
+    width: 8.3333333333%;
+    height: 350px;
+  }
+
+  .mozaic-block-2 {
+    width: 16.6666666667%;
+    height: 350px;
+  }
+
+  .mozaic-block-3 {
+    width: 25%;
+    height: 350px;
+  }
+
+  .mozaic-block-4 {
+    width: 33.3333333333%;
+    height: 350px;
+  }
+
+  .mozaic-block-5 {
+    width: 41.6666666667%;
+    height: 350px;
+  }
+
+  .mozaic-block-6 {
+    width: 50%;
+    height: 350px;
+  }
+
+  .mozaic-block-7 {
+    width: 58.3333333333%;
+    height: 350px;
+  }
+
+  .mozaic-block-8 {
+    width: 66.6666666667%;
+    height: 350px;
+  }
+
+  .mozaic-block-9 {
+    width: 75%;
+    height: 350px;
+  }
+
+  .mozaic-block-10 {
+    width: 83.3333333333%;
+    height: 350px;
+  }
+
+  .mozaic-block-11 {
+    width: 91.6666666667%;
+    height: 350px;
+  }
+
+  .third-block {
+    display: flex;
+    flex-flow: column nowrap;
+    margin: 50px 50px;
+  }
+}
+@media (max-width: 1100px) {
+  .mozaic-block-1 {
+    width: 8.3333333333%;
+    height: 350px;
+  }
+
+  .mozaic-block-2 {
+    width: 16.6666666667%;
+    height: 350px;
+  }
+
+  .mozaic-block-3 {
+    width: 25%;
+    height: 350px;
+  }
+
+  .mozaic-block-4 {
+    width: 33.3333333333%;
+    height: 350px;
+  }
+
+  .mozaic-block-5 {
+    width: 41.6666666667%;
+    height: 350px;
+  }
+
+  .mozaic-block-6 {
+    width: 50%;
+    height: 350px;
+  }
+
+  .mozaic-block-7 {
+    width: 58.3333333333%;
+    height: 350px;
+  }
+
+  .mozaic-block-8 {
+    width: 66.6666666667%;
+    height: 350px;
+  }
+
+  .mozaic-block-9 {
+    width: 75%;
+    height: 350px;
+  }
+
+  .mozaic-block-10 {
+    width: 83.3333333333%;
+    height: 350px;
+  }
+
+  .mozaic-block-11 {
+    width: 91.6666666667%;
+    height: 350px;
+  }
+
+  .third-block {
+    display: flex;
+    flex-flow: column nowrap;
+    margin: 50px 25px;
+  }
+}
+@media (max-width: 991px) {
+  .mozaic-block-md-1 {
+    width: 8.3333333333%;
+    height: 350px;
+  }
+
+  .mozaic-block-md-2 {
+    width: 16.6666666667%;
+    height: 350px;
+  }
+
+  .mozaic-block-md-3 {
+    width: 25%;
+    height: 350px;
+  }
+
+  .mozaic-block-md-4 {
+    width: 33.3333333333%;
+    height: 350px;
+  }
+
+  .mozaic-block-md-5 {
+    width: 41.6666666667%;
+    height: 350px;
+  }
+
+  .mozaic-block-md-6 {
+    width: 50%;
+    height: 350px;
+  }
+
+  .mozaic-block-md-7 {
+    width: 58.3333333333%;
+    height: 350px;
+  }
+
+  .mozaic-block-md-8 {
+    width: 66.6666666667%;
+    height: 350px;
+  }
+
+  .mozaic-block-md-9 {
+    width: 75%;
+    height: 350px;
+  }
+
+  .mozaic-block-md-10 {
+    width: 83.3333333333%;
+    height: 350px;
+  }
+
+  .mozaic-block-md-11 {
+    width: 91.6666666667%;
+    height: 350px;
+  }
+
+  .third-block {
+    display: flex;
+    flex-flow: column nowrap;
+    margin: 50px 20px;
+  }
+}
+@media (max-width: 767px) {
+  .mozaic-block-sd-1 {
+    width: 8.3333333333%;
+    height: 350px;
+  }
+
+  .mozaic-block-sd-2 {
+    width: 16.6666666667%;
+    height: 350px;
+  }
+
+  .mozaic-block-sd-3 {
+    width: 25%;
+    height: 350px;
+  }
+
+  .mozaic-block-sd-4 {
+    width: 33.3333333333%;
+    height: 350px;
+  }
+
+  .mozaic-block-sd-5 {
+    width: 41.6666666667%;
+    height: 350px;
+  }
+
+  .mozaic-block-sd-6 {
+    width: 50%;
+    height: 350px;
+  }
+
+  .mozaic-block-sd-7 {
+    width: 58.3333333333%;
+    height: 350px;
+  }
+
+  .mozaic-block-sd-8 {
+    width: 66.6666666667%;
+    height: 350px;
+  }
+
+  .mozaic-block-sd-9 {
+    width: 75%;
+    height: 350px;
+  }
+
+  .mozaic-block-sd-10 {
+    width: 83.3333333333%;
+    height: 350px;
+  }
+
+  .mozaic-block-sd-11 {
+    width: 91.6666666667%;
+    height: 350px;
+  }
+}
+@media (max-width: 575px) {
+  .mozaic-block-xs-1 {
+    width: 8.3333333333%;
+    height: 350px;
+  }
+
+  .mozaic-block-xs-2 {
+    width: 16.6666666667%;
+    height: 350px;
+  }
+
+  .mozaic-block-xs-3 {
+    width: 25%;
+    height: 350px;
+  }
+
+  .mozaic-block-xs-4 {
+    width: 33.3333333333%;
+    height: 350px;
+  }
+
+  .mozaic-block-xs-5 {
+    width: 41.6666666667%;
+    height: 350px;
+  }
+
+  .mozaic-block-xs-6 {
+    width: 50%;
+    height: 350px;
+  }
+
+  .mozaic-block-xs-7 {
+    width: 58.3333333333%;
+    height: 350px;
+  }
+
+  .mozaic-block-xs-8 {
+    width: 66.6666666667%;
+    height: 350px;
+  }
+
+  .mozaic-block-xs-9 {
+    width: 75%;
+    height: 350px;
+  }
+
+  .mozaic-block-xs-10 {
+    width: 83.3333333333%;
+    height: 350px;
+  }
+
+  .mozaic-block-xs-11 {
+    width: 91.6666666667%;
+    height: 350px;
+  }
+}
+.mozaic-block {
+  margin: 10px 5px;
+  height: 330px;
+}
+.mozaic-block__image {
+  background-size: cover;
+  height: 75%;
+  border-radius: 12px;
+}
+.mozaic-block__header {
+  display: flex;
+  justify-content: space-between;
+  margin: 5px 1px;
+}
+.mozaic-block__header_item1 {
+  color: #6d6d6d;
+  font-size: 14px;
+  font-weight: 200;
+}
+.mozaic-block__header_item2 {
+  font-size: 14px;
+}
+.mozaic-block__header_item2::before {
+  content: "★";
+  color: #ad0065;
+  padding-right: 2px;
+  font-size: 20px;
+}
+.mozaic-block__description {
+  display: flex;
+  flex-flow: column nowrap;
+  margin: 5px 1px;
+}
+.mozaic-block__description_item {
+  font-size: 14px;
+  font-weight: 400;
+  margin-bottom: 5px;
+}
+
+.mozaic-block:nth-child(1) .mozaic-block:nth-child(5) {
+  margin-left: 0;
+}
+
+.mozaic-block:nth-child(4) .mozaic-block:nth-child(8) {
+  margin-right: 0;
+}
+
+.mbb-image1 {
+  background-image: url(https://a0.muscache.com/im/pictures/ac0a5754-031b-4d3e-a134-62593737ecf6.jpg?aki_policy=large);
+}
+.mbb-image2 {
+  background-image: url(https://a0.muscache.com/im/pictures/19755676/c2d3162d_original.jpg?aki_policy=large);
+}
+.mbb-image3 {
+  background-image: url(https://a0.muscache.com/im/pictures/881d76c6-4de6-4808-9f0b-36462b6c48a2.jpg?aki_policy=large);
+}
+.mbb-image4 {
+  background-image: url(https://a0.muscache.com/im/pictures/38443604/307c98b4_original.jpg?aki_policy=large);
+}
+.mbb-image5 {
+  background-image: url(https://a0.muscache.com/im/pictures/ac0a5754-031b-4d3e-a134-62593737ecf6.jpg?aki_policy=large);
+}
+.mbb-image6 {
+  background-image: url(https://a0.muscache.com/im/pictures/19755676/c2d3162d_original.jpg?aki_policy=large);
+}
+.mbb-image7 {
+  background-image: url(https://a0.muscache.com/im/pictures/881d76c6-4de6-4808-9f0b-36462b6c48a2.jpg?aki_policy=large);
+}
+.mbb-image8 {
+  background-image: url(https://a0.muscache.com/im/pictures/38443604/307c98b4_original.jpg?aki_policy=large);
+}
+
+/*# sourceMappingURL=third-block.css.map */

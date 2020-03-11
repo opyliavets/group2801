@@ -1,0 +1,98 @@
+.four-block {
+    max-width: 1250px;
+  }
+
+.four-block__main{
+    display: flex;
+    flex-flow: row wrap;
+  }
+
+  $cell-count: 10;
+  $cell-count-tab:12;
+  $cell-size: 100% / $cell-count;
+  $cell-size-tab: 100% / $cell-count-tab;
+  $cell-heigt-f-b: 70px;
+
+//   desctop style
+@media (max-width: 1378px){
+    @for $index from 1 to $cell-count {
+        .city-block-#{$index} {
+            width: $cell-size * $index;
+            height: $cell-heigt-f-b;
+        }
+    }
+    .four-block {
+        display: flex;
+        flex-flow: column nowrap;
+        margin: 50px 50px;
+    }
+}
+//   tablet style
+@media (max-width: 1100px){
+    @for $index from 1 to $cell-count-tab {
+        .city-block-td-#{$index} {
+            width: $cell-size-tab * $index;
+            height: $cell-heigt-f-b;
+        }
+    }
+    .four-block {
+        display: flex;
+        flex-flow: column nowrap;
+        margin: 50px 25px;
+    }
+}
+@media (max-width: 992px - 1px){
+    @for $index from 1 to $cell-count-tab {
+        .city-block-md-#{$index} {
+            width: $cell-size-tab * $index;
+            height: $cell-heigt-f-b;
+        }
+    }
+    .four-block {
+        display: flex;
+        flex-flow: column nowrap;
+        margin: 50px 20px;
+    }
+}
+//    note style
+@media (max-width: 768px - 1px){
+    @for $index from 1 to $cell-count {
+        .city-block-sd-#{$index} {
+            width: $cell-size * $index;
+            height: $cell-heigt-f-b;
+        }
+    }
+}
+//      mobile style
+@media (max-width: 576px - 1px){
+    @for $index from 1 to $cell-count {
+        .city-block-xs-#{$index} {
+            width: $cell-size * $index;
+            height: $cell-heigt-f-b;
+        }
+    }
+}
+
+.city{
+    margin: 5px 0;
+    height: $cell-heigt-f-b - 10px;
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: flex-start;
+
+    &-name{
+        font-size: 20px;
+        font-weight: bold;
+        margin-bottom: 5px;
+    }
+
+    &-price{
+        font-size: 14px;
+        font-weight: 400;
+        color: grey;
+    }
+}
+
+
+
+

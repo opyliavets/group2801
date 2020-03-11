@@ -1,0 +1,296 @@
+.four-block {
+  max-width: 1250px;
+}
+
+.four-block__main {
+  display: flex;
+  flex-flow: row wrap;
+}
+
+@media (max-width: 1378px) {
+  .city-block-1 {
+    width: 10%;
+    height: 70px;
+  }
+
+  .city-block-2 {
+    width: 20%;
+    height: 70px;
+  }
+
+  .city-block-3 {
+    width: 30%;
+    height: 70px;
+  }
+
+  .city-block-4 {
+    width: 40%;
+    height: 70px;
+  }
+
+  .city-block-5 {
+    width: 50%;
+    height: 70px;
+  }
+
+  .city-block-6 {
+    width: 60%;
+    height: 70px;
+  }
+
+  .city-block-7 {
+    width: 70%;
+    height: 70px;
+  }
+
+  .city-block-8 {
+    width: 80%;
+    height: 70px;
+  }
+
+  .city-block-9 {
+    width: 90%;
+    height: 70px;
+  }
+
+  .four-block {
+    display: flex;
+    flex-flow: column nowrap;
+    margin: 50px 50px;
+  }
+}
+@media (max-width: 1100px) {
+  .city-block-td-1 {
+    width: 8.3333333333%;
+    height: 70px;
+  }
+
+  .city-block-td-2 {
+    width: 16.6666666667%;
+    height: 70px;
+  }
+
+  .city-block-td-3 {
+    width: 25%;
+    height: 70px;
+  }
+
+  .city-block-td-4 {
+    width: 33.3333333333%;
+    height: 70px;
+  }
+
+  .city-block-td-5 {
+    width: 41.6666666667%;
+    height: 70px;
+  }
+
+  .city-block-td-6 {
+    width: 50%;
+    height: 70px;
+  }
+
+  .city-block-td-7 {
+    width: 58.3333333333%;
+    height: 70px;
+  }
+
+  .city-block-td-8 {
+    width: 66.6666666667%;
+    height: 70px;
+  }
+
+  .city-block-td-9 {
+    width: 75%;
+    height: 70px;
+  }
+
+  .city-block-td-10 {
+    width: 83.3333333333%;
+    height: 70px;
+  }
+
+  .city-block-td-11 {
+    width: 91.6666666667%;
+    height: 70px;
+  }
+
+  .four-block {
+    display: flex;
+    flex-flow: column nowrap;
+    margin: 50px 25px;
+  }
+}
+@media (max-width: 991px) {
+  .city-block-md-1 {
+    width: 8.3333333333%;
+    height: 70px;
+  }
+
+  .city-block-md-2 {
+    width: 16.6666666667%;
+    height: 70px;
+  }
+
+  .city-block-md-3 {
+    width: 25%;
+    height: 70px;
+  }
+
+  .city-block-md-4 {
+    width: 33.3333333333%;
+    height: 70px;
+  }
+
+  .city-block-md-5 {
+    width: 41.6666666667%;
+    height: 70px;
+  }
+
+  .city-block-md-6 {
+    width: 50%;
+    height: 70px;
+  }
+
+  .city-block-md-7 {
+    width: 58.3333333333%;
+    height: 70px;
+  }
+
+  .city-block-md-8 {
+    width: 66.6666666667%;
+    height: 70px;
+  }
+
+  .city-block-md-9 {
+    width: 75%;
+    height: 70px;
+  }
+
+  .city-block-md-10 {
+    width: 83.3333333333%;
+    height: 70px;
+  }
+
+  .city-block-md-11 {
+    width: 91.6666666667%;
+    height: 70px;
+  }
+
+  .four-block {
+    display: flex;
+    flex-flow: column nowrap;
+    margin: 50px 20px;
+  }
+}
+@media (max-width: 767px) {
+  .city-block-sd-1 {
+    width: 10%;
+    height: 70px;
+  }
+
+  .city-block-sd-2 {
+    width: 20%;
+    height: 70px;
+  }
+
+  .city-block-sd-3 {
+    width: 30%;
+    height: 70px;
+  }
+
+  .city-block-sd-4 {
+    width: 40%;
+    height: 70px;
+  }
+
+  .city-block-sd-5 {
+    width: 50%;
+    height: 70px;
+  }
+
+  .city-block-sd-6 {
+    width: 60%;
+    height: 70px;
+  }
+
+  .city-block-sd-7 {
+    width: 70%;
+    height: 70px;
+  }
+
+  .city-block-sd-8 {
+    width: 80%;
+    height: 70px;
+  }
+
+  .city-block-sd-9 {
+    width: 90%;
+    height: 70px;
+  }
+}
+@media (max-width: 575px) {
+  .city-block-xs-1 {
+    width: 10%;
+    height: 70px;
+  }
+
+  .city-block-xs-2 {
+    width: 20%;
+    height: 70px;
+  }
+
+  .city-block-xs-3 {
+    width: 30%;
+    height: 70px;
+  }
+
+  .city-block-xs-4 {
+    width: 40%;
+    height: 70px;
+  }
+
+  .city-block-xs-5 {
+    width: 50%;
+    height: 70px;
+  }
+
+  .city-block-xs-6 {
+    width: 60%;
+    height: 70px;
+  }
+
+  .city-block-xs-7 {
+    width: 70%;
+    height: 70px;
+  }
+
+  .city-block-xs-8 {
+    width: 80%;
+    height: 70px;
+  }
+
+  .city-block-xs-9 {
+    width: 90%;
+    height: 70px;
+  }
+}
+.city {
+  margin: 5px 0;
+  height: 60px;
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: flex-start;
+}
+.city-name {
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+.city-price {
+  font-size: 14px;
+  font-weight: 400;
+  color: grey;
+}
+
+/*# sourceMappingURL=fourth-block.css.map */

@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Calendar</title>
+</head>
+<style>
+    html{
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    body{
+        background-color: #50e3c2;
+    }
+      h1,
+      h2,
+      h3,
+      h4,
+      h5,
+      h6,
+      p,
+      body{
+          margin:0;
+      }
+      .main-frame-calendar{
+          background-color: seashell;
+          width: 345px;
+          min-height: 400px;
+          margin: 40px auto;
+          border-radius: 4px;
+          box-shadow: 0 4px 10px 0 rgba(208, 208, 208, 0.5);
+          border: solid 1px #dfe4ef;
+      }
+      .head-table{
+          height: 25px;
+          margin: 16px 10px;
+          font-size: 16px;
+          font-stretch: normal;
+          font-style: normal;
+          line-height: normal;
+          letter-spacing: normal;
+          text-align: center;
+          color: #2c3135;
+      }
+      .prev-month, .next-month{
+        width: 100px;
+        color: silver;
+      }
+      .prev-month{
+          text-align: left;
+      }
+      .next-month{
+          text-align: right;
+      }
+      .current-month{
+          text-align: center;
+          width: 125px;
+      }
+      table{
+          margin: 16px 10px;
+          text-align: center;
+      }
+      td{
+          width: 44px;
+          height: 44px;
+      }
+      .header-row{
+        width: 24px;
+        height: 10px;
+        font-size: 12px;
+        font-weight: normal;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: 0.83;
+        letter-spacing: normal;
+        text-align: center;
+        color: #7f8fa4;
+      }
+      .normal-date{
+        font-size: 14px;
+        font-weight: normal;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: 0.83;
+        letter-spacing: normal;
+        text-align: center;
+        color: #2c3135;
+      }
+      .non-active-date{
+        background-color: #edf2f5;
+        color: silver;
+        border-radius: 2px;
+      }
+      .active-date{
+        background-color: #50e3c2;
+        color: rgb(252, 252, 252);
+        border-radius: 2px;
+      }
+      .cancel, .save{
+          width: 165px;
+          height: 20px;
+          font-size: 16px;
+          font-weight: normal;
+          font-stretch: normal;
+          font-style: normal;
+          line-height: normal;
+          letter-spacing: normal;
+          text-align: center;
+          color: #2c3135;
+     }
+      .cancel{
+          text-align: left;
+      }
+      .save{
+          text-align: right;
+      }
+      .bottomimg{
+          margin: 5px;
+      }
+</style>
+<body>
+    <div class="main-frame-calendar">
+        <div>
+           <table class="head-table">
+               <tr>
+                   <td class="prev-month"><</td>
+                   <td class="current-month">August 2017</td>
+                   <td class="next-month">></td>
+               </tr>
+           </table>
+        </div>
+        <table>
+            <tr class="header-row">
+                <td>SUN</td>
+                <td>MON</td>
+                <td>TUE</td>
+                <td>WED</td>
+                <td>THU</td>
+                <td>FRI</td>
+                <td>SAT</td>
+            </tr>
+            <tr class="normal-date">
+                <td class="non-active-date">30</td>
+                <td class="non-active-date">31</td>
+                <td>1</td>
+                <td>2</td>
+                <td>3</td>
+                <td>4</td>
+                <td>5</td>
+            </tr>
+            <tr class="normal-date">
+                <td>6</td>
+                <td>7</td>
+                <td>8</td>
+                <td>9</td>
+                <td>10</td>
+                <td>11</td>
+                <td>12</td>
+            </tr>
+            <tr class="normal-date">
+                <td>13</td>
+                <td>14</td>
+                <td>15</td>
+                <td>16</td>
+                <td class="active-date">17</td>
+                <td>18</td>
+                <td>19</td>
+            </tr>
+            <tr class="normal-date">
+                <td>20</td>
+                <td>21</td>
+                <td>22</td>
+                <td>23</td>
+                <td>24</td>
+                <td>25</td>
+                <td>26</td>
+            </tr>
+            <tr class="normal-date">
+                <td>27</td>
+                <td>28</td>
+                <td>29</td>
+                <td>30</td>
+                <td>31</td>
+                <td class="non-active-date">1</td>
+                <td class="non-active-date">2</td>
+            </tr>
+        </table>
+        <table class="bottom-table">
+            <tr>
+                <td class="cancel"><img src="./group.png"/ class="bottomimg">Cancel</td>
+                <td class="save"><img src="./save.png"/ class="bottomimg">Save</td>
+            </tr>
+        </table>
+    </div>
+</body>
+</html>
