@@ -1,0 +1,65 @@
+$lamp-blocks-heigth: 175px;
+$lamp-blocks-border: 0.5px solid rgb(87, 87, 204);
+$lamp-blocks-width: 175px;
+
+.wrapper{
+    display: flex;
+    flex-flow: column nowrap;
+    margin: 50px auto;
+    max-width: 1250px;
+    align-items: center;
+    justify-content: center;
+}
+
+.button{
+    width: 100px;
+    height: 50px;
+    border-radius: 4px;
+    font-size: 18px;
+    font-weight: 600;
+    color: white;
+
+    &__on{
+        border: none;
+        background-color: rgb(253, 0, 0);
+
+    }
+
+    &__off{
+        border: none;
+        background-color: rgb(146, 146, 253);
+    }
+}
+
+.lamp {
+    max-width: 625px;
+    max-height: 625px;
+    margin: 50px;
+    height: $lamp-blocks-heigth;
+    width: $lamp-blocks-width;
+    border: none;
+    background-size: cover;
+
+    &__on{
+        background-image: url(../assets/images/lamp_on.jpg);
+    }
+
+    &2::after{
+        content: "Hello, world!";
+        display: flex;
+        justify-content: center;
+        margin: 50px;
+        font-size: 25px;
+        font-weight: 600;
+        color: rgb(156, 0, 0);
+    }
+
+    &3::after{
+        content: '';
+    }
+
+    &__off{
+        background-image: url(../assets/images/lamp_off.jpg);
+    }
+
+}

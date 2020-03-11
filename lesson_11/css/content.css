@@ -1,0 +1,55 @@
+.wrapper {
+  display: flex;
+  flex-flow: column nowrap;
+  margin: 50px auto;
+  max-width: 1250px;
+  align-items: center;
+  justify-content: center;
+}
+
+.button {
+  width: 100px;
+  height: 50px;
+  border-radius: 4px;
+  font-size: 18px;
+  font-weight: 600;
+  color: white;
+}
+.button__on {
+  border: none;
+  background-color: #fd0000;
+}
+.button__off {
+  border: none;
+  background-color: #9292fd;
+}
+
+.lamp {
+  max-width: 625px;
+  max-height: 625px;
+  margin: 50px;
+  height: 175px;
+  width: 175px;
+  border: none;
+  background-size: cover;
+}
+.lamp__on {
+  background-image: url(../assets/images/lamp_on.jpg);
+}
+.lamp2::after {
+  content: "Hello, world!";
+  display: flex;
+  justify-content: center;
+  margin: 50px;
+  font-size: 25px;
+  font-weight: 600;
+  color: #9c0000;
+}
+.lamp3::after {
+  content: "";
+}
+.lamp__off {
+  background-image: url(../assets/images/lamp_off.jpg);
+}
+
+/*# sourceMappingURL=content.css.map */
