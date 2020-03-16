@@ -1,0 +1,33 @@
+.wrapper {
+  height: 425px;
+  width: 150px;
+  border: 1px solid red;
+  margin: 50px auto;
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.active {
+  background-color: black;
+}
+
+.lighters {
+  background-color: transparent;
+  border: 1px solid black;
+  border-radius: 50%;
+  width: 125px;
+  height: 125px;
+}
+.lighters__red.active {
+  background-color: red;
+}
+.lighters__yellow.active {
+  background-color: yellow;
+}
+.lighters__green.active {
+  background-color: green;
+}
+
+/*# sourceMappingURL=main.css.map */
