@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>HW Practice 4</title>
+    <link rel="stylesheet" href="./styles/styles.css">
+
+</head>
+<body>
+    <div class="wrapper">
+      <input type="text" placeholder="put your number" class="input" id="number1" value="">
+      <p>*</p>
+      <input type="text" placeholder="put your number" class="input" id="number2" value="">
+      <p>+</p>
+      <input type="text" placeholder="put your number" class="input" id="number3" value="">
+      <input type="submit" value="Result!" onclick="check()">
+    </div>
+    <div class="wrapper2">
+      <div class="block">
+        <input type="text" class="give-number">
+        <input type="submit" class="add-to" value="Add to First Array" onclick="firstArray()"> 
+      </div>
+      <div class="block">
+        <input type="text" class="give-number2">
+        <input type="submit" class="add-to" value="Add to Second Array" onclick="secondArray()">
+      </div>  
+      <input type="submit" class="check" value="Check it!" onclick="checkit(firstArrayVar, secondArrayVar)">
+    </div>
+    <script src="./scripts/hw_scripts.js"></script>
+</body>
+</html>

@@ -1,0 +1,33 @@
+.wrapper{
+    width: 600px;
+    background-color: rgb(245, 245, 137);
+    height: 150px;
+    margin: 50px auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.wrapper2{
+    width: 600px;
+    background-color: rgb(245, 105, 87);
+    height: 150px;
+    margin: 50px auto;
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.block{
+    margin: 15px;
+}
+
+.add-to{
+    width: 200px;
+}
+
+.input{
+    margin: 25px;
+    width:100px;
+}
